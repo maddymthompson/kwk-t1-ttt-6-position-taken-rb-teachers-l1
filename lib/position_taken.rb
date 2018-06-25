@@ -6,6 +6,6 @@ def position_taken?(board, index)
   #expect(position_taken?(board, index)).to be(false)
 
 
-board[index] != " " 
+board[index] != " "
 board[index] == "X" || board[index] == "O" 
 end
